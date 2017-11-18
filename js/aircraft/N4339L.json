@@ -1,0 +1,93 @@
+{
+  "name": "Piper Archer III",
+  "code": "N4339L",
+  "categories": {
+    "normal": [
+      {"x": 78, "y": 1800},
+      {"x": 78, "y": 2400},
+      {"x": 81, "y": 2840},
+      {"x": 83.5, "y": 3200},
+      {"x": 87, "y": 3430},
+      {"x": 90, "y": 3600},
+      {"x": 95, "y": 3600},
+      {"x": 95, "y": 1800}
+    ],
+    "utility": [
+    ],
+    "acrobatic": null
+  },
+  "sections": [
+    {
+      "name": "empty",
+      "title": "Licensed Empty Weight",
+      "unit": "lbs",
+      "quantity": 2213.9,
+      "arm": { 
+        "value": 83.4170,
+        "configurable": false
+        },
+      "moment": 152116.8,
+      "max": 3600
+    },
+    {
+      "name": "fuel",
+      "title": "Fuel",
+      "unit": "gal",
+      "quantity": 102,
+      "arm": 94,
+      "moment": null,
+      "max": 102
+    },
+    {
+      "name": "front",
+      "title": "Front Passengers",
+      "unit": "lbs",
+      "quantity": 0,
+      "arm": 85.5,
+      "moment": null
+    },
+    {
+      "name": "aft-center",
+      "title": "Center Seat (front facing)",
+      "unit": "lbs",
+      "quantity": 0,
+      "arm": 118.1,
+      "moment": null
+    },
+    {
+      "name": "aft-center-aft",
+      "title": "Center Seat (aft facing)",
+      "unit": "lbs",
+      "quantity": 0,
+      "arm": 119.1,
+      "moment": null
+    },
+    {
+      "name": "aft",
+      "title": "Rear Passengers",
+      "unit": "lbs",
+      "quantity": 0,
+      "arm": 157.6,
+      "moment": null,
+      "max": 340
+    },
+    {
+      "name": "front-baggage",
+      "title": "Front Baggage",
+      "unit": "lbs",
+      "quantity": null,
+      "arm": 42,
+      "moment": null,
+      "max": 100
+    },
+    {
+      "name": "rear-baggage",
+      "title": "Rear Baggage",
+      "unit": "lbs",
+      "quantity": null,
+      "arm": 178.7,
+      "moment": null,
+      "max": 100
+    }
+  ]
+}
