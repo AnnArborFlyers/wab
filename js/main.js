@@ -65,12 +65,6 @@ function (bootstrap, d3, nv, Aircraft, ich, template, list) {
     }
 
 
-    function getURLParameter(name) {
-      return decodeURIComponent((new RegExp('[?|&]' + name + '=' + '([^&;]+?)(&|#|;|$)').exec(location.search)||[,""])[1].replace(/\+/g, '%20'))||null
-    }
-    var val = getURLParameter('ac');
-    update(aircraftList[val(val)]); // assign aircraft from URL to the aircraft picker dropdown
-
     function update(aircraft) {
       aircraft = new Aircraft(aircraft);
 
