@@ -89,6 +89,7 @@
       <div class="bs-header">
         <h1>Weight and Balance</h1>
         <h2 id="aircraft"></h2>
+        <a id="printac"></a>
         <select id="aircraftPicker" class="form-control">
         </select>
       </div>
@@ -96,6 +97,8 @@
         var urlac = getQueryVariable("ac");
         var element = document.getElementById("aircraftPicker");
         element.value = urlac;
+
+        document.getElementById("printac").innerHTML = urlac
       </script>
     </header>
     <div id="content">
