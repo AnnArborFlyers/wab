@@ -46,7 +46,7 @@ function (bootstrap, d3, nv, Aircraft, ich, template, list) {
      return(false);
   }
 
-  list = getQueryVariable("ac"); //list.map(pluginify);
+  list = list.getQueryVariable("ac"); //list.map(pluginify);
 
   // Add the template data to the templating engine
   ich.addTemplate('sectionRow', template);
