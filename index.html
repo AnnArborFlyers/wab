@@ -72,6 +72,10 @@
       }
 
     </style>
+    <script>
+      var ac = location.href.match(/[?&]ac=(.*?)[$&]/)[1];  // get params from URL
+      $('#aircraftPicker').val(ac);   //  assign URL param to select field
+    </script>
   </head>
   <body>
     <header>
