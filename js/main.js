@@ -35,10 +35,6 @@ function (bootstrap, d3, nv, Aircraft, ich, template, list) {
   function pluginify(d) {
     return 'json!aircraft/' + d + '.json';
   }
-  list = list.map(pluginify);
-
-  // Add the template data to the templating engine
-  ich.addTemplate('sectionRow', template);
 
   function getQueryVariable(variable){
      var query = window.location.search.substring(1);
@@ -50,10 +46,10 @@ function (bootstrap, d3, nv, Aircraft, ich, template, list) {
      return(false);
   }
 
-  function SelectElement(valueToSelect){
-    var element = document.getElementById('aircraftPicker');
-    element.value = getQueryVariable(valueToSelect);
-  }
+  list = getQueryVariable(ac) //list.map(pluginify);
+
+  // Add the template data to the templating engine
+  ich.addTemplate('sectionRow', template);
 
   // Require the aircraft JSON
   require(list, function () {
