@@ -69,7 +69,7 @@ function (bootstrap, d3, nv, Aircraft, ich, template, list) {
         .enter()
           .append('option')
           .classed('opt', true)
-          .attr('value', function (aircraft) { return aircraftList.SelectElement(ac);}) //indexOf(aircraft); })
+          .attr('value', function (aircraft) { return aircraftList.indexOf("2"); })
           .text(function (aircraft) {
             return aircraft.code;
           });
