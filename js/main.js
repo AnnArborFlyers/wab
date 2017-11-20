@@ -40,6 +40,21 @@ function (bootstrap, d3, nv, Aircraft, ich, template, list) {
   // Add the template data to the templating engine
   ich.addTemplate('sectionRow', template);
 
+  function getQueryVariable(variable){
+     var query = window.location.search.substring(1);
+     var vars = query.split("&");
+     for (var i=0;i<vars.length;i++) {
+        var pair = vars[i].split("=");
+        if(pair[0] == variable){return pair[1];}
+     }
+     return(false);
+  }
+
+  function SelectElement(valueToSelect){
+    var element = document.getElementById('aircraftPicker');
+    element.value = getQueryVariable(valueToSelect);
+  }
+
   // Require the aircraft JSON
   require(list, function () {
     var aircraftList = Array.prototype.slice.call(arguments);
@@ -62,7 +77,7 @@ function (bootstrap, d3, nv, Aircraft, ich, template, list) {
       picker.on('change', function () {
         update(aircraftList[this.value]);
       });
-    }
+   } 
 
 
     function update(aircraft) {
