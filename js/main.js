@@ -109,9 +109,9 @@ function (bootstrap, d3, nv, Aircraft, ich, template, list) {
                 return 'disabled';
               } else if (section.arm !== null) {
                 if (section.arm.configurable) {
-                  return null;
-                } else {
                   return 'disabled';
+                } else {
+                  return null;
                 }
               }
               return null;
