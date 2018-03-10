@@ -107,6 +107,16 @@ function (bootstrap, d3, nv, Aircraft, ich, template, list) {
             .attr('placeholder', function (section) {
               return 'Max ' + section.max;
             })
+            .attr('disabled', function (section) {
+              if (section.arm !== null) {
+                if (section.arm.configurable == 'false') {
+                  return 'disabled';
+                } else {
+                  return null;
+                }
+              }
+              return null;
+            })
             .property('value', function (section) {
               return section.quantity === null ? "" : section.quantity;
             })
