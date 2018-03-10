@@ -104,18 +104,20 @@ function (bootstrap, d3, nv, Aircraft, ich, template, list) {
             .attr('name', function (section) {
               return section.name;
             })
-            .attr('placeholder', function (section) {
-              return 'Max ' + section.max;
-            })
             .attr('disabled', function (section) {
-              if (section.arm !== null) {
-                if (section.arm.configurable == 'false') {
-                  return 'disabled';
-                } else {
+              if (typeof section.arm === 'number') {
+                return 'disabled';
+              } else if (section.arm !== null) {
+                if (section.arm.configurable) {
                   return null;
+                } else {
+                  return 'disabled';
                 }
               }
               return null;
+            })
+            .attr('placeholder', function (section) {
+              return 'Max ' + section.max;
             })
             .property('value', function (section) {
               return section.quantity === null ? "" : section.quantity;
