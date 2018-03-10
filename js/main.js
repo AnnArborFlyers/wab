@@ -106,12 +106,12 @@ function (bootstrap, d3, nv, Aircraft, ich, template, list) {
             })
             .attr('disabled', function (section) {
               if (typeof section.arm === 'number') {
-                return 'disabled';
+                return null;
               } else if (section.arm !== null) {
                 if (section.arm.configurable) {
-                  return 'disabled';
-                } else {
                   return null;
+                } else {
+                  return 'disabled';
                 }
               }
               return null;
