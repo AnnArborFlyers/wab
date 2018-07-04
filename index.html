@@ -32,8 +32,13 @@
         color: white;
         font-family: 'Quantico', sans-serif;
       }
+
+      .bs-header h3 {
+        padding: 5px;
+        font-family: 'Quantico', sans-serif;
+      }
       
-      .bs-header h2, .bs-header h1 {
+      .bs-header h1, .bs-header h2 , .bs-header h3 {
         padding-left: 20px;
         margin-top: 0;
       }
@@ -48,6 +53,11 @@
         width: 40%;
         float: left;
       }
+
+      span.form {
+        min-width: 401px;
+      }
+
       #chart {
         float: right;
         margin: 5px;
@@ -78,22 +88,23 @@
       <div class="bs-header">
         <h1>Weight and Balance</h1>
         <h2 id="aircraft"></h2>
-        <p>Select Aircraft:</p>
+        <h3>Select Aircraft:</h3>
         <select id="aircraftPicker" class="form-control">
         </select>
       </div>
     </header>
     <div id="content">
       <div id="chart">
-        
         <svg></svg>
       </div>
       <div id="form" class="container">
-        <div class="row wabheader">
-          <div class="col-xs-4">Section</div>
-          <div class="col-xs-5">Weight</div>
-          <div class="col-xs-3">Arm (in)</div>
-        </div>
+        <span class=form">
+          <div class="row wabheader">
+            <div class="col-xs-4">Section</div>
+            <div class="col-xs-5">Weight</div>
+            <div class="col-xs-3">Arm (in)</div>
+          </div>
+        </span>
       </div>
     </div>
   </body>
