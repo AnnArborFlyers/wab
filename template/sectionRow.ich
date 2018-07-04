@@ -1,4 +1,3 @@
-<div class="container chart-width">
 <div class="col-xs-4 wabtitle"><div class="wabcell">{{title}}</div></div>
 <div class="col-xs-5 wabquantity">
   <div class="input-group">
@@ -8,5 +7,4 @@
 </div>
 <div class="col-xs-3 wabarm">
 <input type="number" class="form-control input-sm" />
-</div>
 </div>
