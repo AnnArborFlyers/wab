@@ -54,10 +54,6 @@
         float: left;
       }
 
-      span.form {
-        min-width: 401px;
-      }
-
       #chart {
         float: right;
         margin: 5px;
@@ -72,6 +68,9 @@
         #form { 
           float: none;
           width: 100%; 
+        }
+        #weight {
+          width: 68px;
         }
         #chart { 
           float: none; 
@@ -88,9 +87,9 @@
       <div class="bs-header">
         <h1>Weight and Balance</h1>
         <h2 id="aircraft"></h2>
-        <h3>Select Aircraft:</h3>
-        <select id="aircraftPicker" class="form-control">
-        </select>
+        <h3>Select Aircraft:
+          <select id="aircraftPicker" class="form-control"></select>
+        </h3>
       </div>
     </header>
     <div id="content">
@@ -98,13 +97,11 @@
         <svg></svg>
       </div>
       <div id="form" class="container">
-        <span class=form">
-          <div class="row wabheader">
-            <div class="col-xs-4">Section</div>
-            <div class="col-xs-5">Weight</div>
-            <div class="col-xs-3">Arm (in)</div>
-          </div>
-        </span>
+        <div class="row wabheader">
+          <div class="col-xs-4">Section</div>
+          <div id="weight" class="col-xs-5">Weight</div>
+          <div class="col-xs-3">Arm (in)</div>
+        </div>
       </div>
     </div>
   </body>
