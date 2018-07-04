@@ -26,13 +26,13 @@
       "name": "empty",
       "title": "Licensed Empty Weight",
       "unit": "lbs",
-      "quantity": 1536.2,
+      "quantity": 1689.55,
       "arm": { 
-        "value": 87.6148,
+        "value": 86.6,
         "configurable": false
         },
-      "moment": 152116.8,
-      "max": 2325
+      "moment": 146312.01,
+      "max": 2550
     },
     {
       "name": "fuel",
