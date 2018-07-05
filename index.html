@@ -27,10 +27,8 @@
       }
 
       .bs-header h2 {
-        padding: 5px;
-        background-color: black;
+        padding-top: 5px;
         color: white;
-        font-family: 'Quantico', sans-serif;
       }
 
       .bs-header h3 {
@@ -83,7 +81,9 @@
     <header>
       <div class="bs-header">
         <h1>Weight and Balance</h1>
-        <h2 id="aircraft"></h2>
+        <nav class="navbar navbar-inverse">
+          <h2 id="aircraft"></h2>
+        </nav>
         <h3>Select Aircraft:
           <select id="aircraftPicker" class="form-control"></select>
         </h3>
