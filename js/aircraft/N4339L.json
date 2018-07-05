@@ -19,7 +19,7 @@
   "sections": [
     {
       "name": "empty",
-      "title": "Licensed Empty Weight",
+      "title": "Basic Empty Weight",
       "unit": "lbs",
       "quantity": 2213.9,
       "arm": { 
