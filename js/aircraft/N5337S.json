@@ -38,7 +38,7 @@
       "name": "fuel",
       "title": "Fuel",
       "unit": "gal",
-      "quantity": 48,
+      "quantity": 34,
       "arm": 95,
       "moment": null,
       "max": 48
