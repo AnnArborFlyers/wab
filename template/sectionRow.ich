@@ -6,5 +6,5 @@
   </div>
 </div>
 <div class="col-xs-3 wabarm">
-<input type="number" class="form-control input-sm form-font-size" />
+<input type="number" class="form-control input-md form-font-size" />
 </div>
