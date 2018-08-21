@@ -52,8 +52,7 @@
       "unit": "lbs",
       "quantity": 0,
       "arm": 118.1,
-      "moment": null,
-      "max": 340
+      "moment": null
     },
     {
       "name": "baggage",
