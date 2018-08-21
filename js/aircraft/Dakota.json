@@ -37,33 +37,16 @@
       "max": 72
     },
     {
-      "name": "front_left",
-      "title": "Front Left Pass.",
+      "name": "front",
+      "title": "Front Passengers",
       "unit": "lbs",
       "quantity": 0,
       "arm": 80.5,
       "moment": null
     },
     {
-      "name": "front_right",
-      "title": "Front Right Pass.",
-      "unit": "lbs",
-      "quantity": 0,
-      "arm": 80.5,
-      "moment": null
-    },
-    {
-      "name": "aft_left",
-      "title": "Aft Left Pass.",
-      "unit": "lbs",
-      "quantity": 0,
-      "arm": 118.1,
-      "moment": null,
-      "max": 340
-    },
-    {
-      "name": "aft_right",
-      "title": "Aft Right Pass.",
+      "name": "aft",
+      "title": "Aft Passengers",
       "unit": "lbs",
       "quantity": 0,
       "arm": 118.1,
