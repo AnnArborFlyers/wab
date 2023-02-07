@@ -1,0 +1,101 @@
+{
+  "name": "Lancair Columbia 300",
+  "code": "N29KK",
+  "categories": {
+    "normal": [
+      {"x": 103, "y": 2240},
+      {"x": 103, "y": 2500},
+      {"x": 107, "y": 3400},
+      {"x": 110, "y": 3400},
+      {"x": 110, "y": 2500}
+    ],
+    "Maximum Empty Weight": [
+      {"x": 103.3, "y": 2580},
+      {"x": 110, "y": 2580},
+    ],
+    "acrobatic": null
+  },
+  "sections": [
+    {
+      "name": "empty",
+      "title": "Basic Empty Weight",
+      "unit": "lbs",
+      "quantity": 2295.0,
+      "arm": { 
+        "value": 102.745098,
+        "configurable": false
+        },
+      "moment": null,
+      "max": 3600
+    },
+    {
+      "name": "fuel",
+      "title": "Fuel (Max: 102)",
+      "unit": "gal",
+      "quantity": 50,
+      "arm": 118,
+      "moment": null,
+      "max": 102
+    },
+    {
+      "name": "front",
+      "title": "Front Passengers",
+      "unit": "lbs",
+      "quantity": 0,
+      "arm": 110,
+      "moment": null
+    },
+    {
+      "name": "aft",
+      "title": "Rear Passengers",
+      "unit": "lbs",
+      "quantity": 0,
+      "arm": 141.4,
+      "moment": null
+    },
+    {
+      "name": "main-baggage",
+      "title": "Main Baggage",
+      "unit": "lbs",
+      "quantity": null,
+      "arm": 166.6,
+      "moment": null,
+      "max": 100
+    },
+    {
+      "name": "A-baggage",
+      "title": "Baggage (Zone A)",
+      "unit": "lbs",
+      "quantity": null,
+      "arm": 155.7,
+      "moment": null,
+      "max": 100
+    },
+    {
+      "name": "B-baggage",
+      "title": "Baggage (Zone B)",
+      "unit": "lbs",
+      "quantity": null,
+      "arm": 177.4,
+      "moment": null,
+      "max": 100
+    },
+    {
+      "name": "shelf-baggage",
+      "title": "Baggage Shelf",
+      "unit": "lbs",
+      "quantity": null,
+      "arm": 199.8,
+      "moment": null,
+      "max": 100
+    },
+    {
+      "name": "taxi",
+      "title": "Taxi & Runup",
+      "unit": "lbs",
+      "quantity": -15,
+      "arm": 94,
+      "moment": null
+    }
+  ]
+}
