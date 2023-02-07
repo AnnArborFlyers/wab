@@ -231,11 +231,6 @@ function (bootstrap, d3, nv, Aircraft, ich, template, list) {
           color: 'lightblue'
         },
         {
-          values: aircraft.categories.mzfw,
-          key: 'M.Z.F.W.',
-          color: 'yellow'
-        },
-        {
           values: wab.points,
           key: 'Weight and Balance',
           color: color
