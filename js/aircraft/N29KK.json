@@ -9,7 +9,8 @@
       {"x": 110, "y": 3400},
       {"x": 110, "y": 2500}
     ],
-    "utility": null,
+    "utility": [
+    ],
     "acrobatic": null
   },
   "sections": [
@@ -17,17 +18,17 @@
       "name": "empty",
       "title": "Basic Empty Weight",
       "unit": "lbs",
-      "quantity": 2295.0,
+      "quantity": 2351.7,
       "arm": { 
-        "value": 102.75,
+        "value": 104.4,
         "configurable": false
         },
-      "moment": null,
+      "moment": 245517,
       "max": 3600
     },
     {
       "name": "fuel",
-      "title": "Fuel (Max: 102)",
+      "title": "Fuel (Max: 98)",
       "unit": "gal",
       "quantity": 50,
       "arm": 118,
@@ -57,7 +58,7 @@
       "quantity": null,
       "arm": 166.6,
       "moment": null,
-      "max": 100
+      "max": 120
     },
     {
       "name": "a-baggage",
@@ -66,7 +67,7 @@
       "quantity": null,
       "arm": 155.7,
       "moment": null,
-      "max": 100
+      "max": 120
     },
     {
       "name": "b-baggage",
@@ -75,7 +76,7 @@
       "quantity": null,
       "arm": 177.4,
       "moment": null,
-      "max": 100
+      "max": 120
     },
     {
       "name": "shelf-baggage",
@@ -84,7 +85,7 @@
       "quantity": null,
       "arm": 199.8,
       "moment": null,
-      "max": 100
+      "max": 20
     },
     {
       "name": "taxi",
