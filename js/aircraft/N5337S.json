@@ -26,12 +26,12 @@
       "name": "empty",
       "title": "Basic Empty Weight",
       "unit": "lbs",
-      "quantity": 1736.2,
+      "quantity": 1700,
       "arm": { 
-        "value": 87.6148,
+        "value": 88.78,
         "configurable": false
         },
-      "moment": 152116.8,
+      "moment": 150917.6,
       "max": 2550
     },
     {
