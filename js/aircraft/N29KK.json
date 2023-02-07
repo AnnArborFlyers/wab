@@ -19,7 +19,7 @@
       "unit": "lbs",
       "quantity": 2295.0,
       "arm": { 
-        "value": 102.745098,
+        "value": 102.75,
         "configurable": false
         },
       "moment": null,
