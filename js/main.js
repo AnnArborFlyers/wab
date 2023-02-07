@@ -218,7 +218,7 @@ function (bootstrap, d3, nv, Aircraft, ich, template, list) {
 
     function data(aircraft) {
       var wab = aircraft.WeightAndBalance(),
-          color = wab.success ? 'green' : 'red';
+          color = wab.success ? 'black' : 'red';
       return [
         {
           values: aircraft.categories.normal,
