@@ -1,9 +1,11 @@
 Weight&Balance
 ==============
 
+Originally forked from [cvializ/wab](https://github.com/cvializ/wab)
+
 A Javascript-based weight and balance calculator for general aviation aircraft.
 
-[View the live demo!](aaf.jasonhurd.com)
+[View the live demo!](https://aaf.jasonhurd.com)
 
 ## What is Weight and Balance?
 
