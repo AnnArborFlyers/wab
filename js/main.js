@@ -29,6 +29,12 @@ require.config({
   enforceDefine: true
 });
 
+var hashParams = window.location.hash.substr(1).split('&'); // substr(1) to remove the `#`
+for(var i = 0; i < hashParams.length; i++){
+    var p = hashParams[i].split('=');
+    document.getElementById(p[0]).value = decodeURIComponent(p[1]);;
+}
+
 define(['bootstrap', 'd3', 'nv', 'aircraft/Aircraft', 'ich', 'text!../template/sectionRow.ich', 'json!aircraft/list.json', 'd3ich', 'domReady!'],
 function (bootstrap, d3, nv, Aircraft, ich, template, list) {
   // Calculate the RequireJS string for each aircraft.
